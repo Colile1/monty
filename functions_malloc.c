@@ -1,10 +1,12 @@
 #include "monty.h"
+
 /**
  * _calloc - concatenate tw strings specially
  * @nmemb: number of elements
  * @size: type of elements
  * Return: nothing
  */
+
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	void *p = NULL;
@@ -25,6 +27,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	}
 	return (p);
 }
+
 /**
  * _realloc - change the size and copy the content
  * @ptr: malloc pointer to reallocate

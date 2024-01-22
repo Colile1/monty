@@ -4,7 +4,6 @@
  * @s1: type of string compared
  * @s2: type of string compared
  * Return: 0 if s1 and s2 are equals.
- *         another value if they are different
  */
 int _strcmp(char *s1, char *s2)
 {

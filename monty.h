@@ -34,8 +34,8 @@ typedef struct stack_s
  * @buffer: input text
  *
  * Description: stack_head linked list node structure
- * for stack, queues, LIFO, FIFO Holberton project
- */
+*/
+
 typedef struct globals
 {
 	int lifo;
@@ -52,7 +52,6 @@ typedef struct globals
  * @f: function to handle the opcode
  *
  * Description: opcode and its function
- * for stack, queues, LIFO, FIFO Holberton project
  */
 typedef struct instruction_s
 {
